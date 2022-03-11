@@ -1,0 +1,56 @@
+body {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 100%, #2c3e50 0%);
+  height: 1vh;
+  position: relative; }
+
+p {
+  font-weight: 300; }
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+a {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease; }
+  a, a:hover {
+    text-decoration: none !important; }
+
+.site-navbar {
+  border-bottom: 0.3rem solid white;
+  margin-bottom: 0px;
+  z-index: 1999;
+  position: relative;
+  width: 100%;
+  padding: 1rem; }
+  .site-navbar .site-logo {
+    position: absolute;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 3; }
+    .site-logo:hover {
+      filter: brightness(55%);
+    }
+  .site-navbar .site-navigation .site-menu {
+    margin-bottom: 0; }
+    .site-navbar .site-navigation .site-menu a {
+      text-decoration: none !important;
+      display: inline-block; }
+    .site-navbar .site-navigation .site-menu > li {
+      display: inline-block; }
+      .site-navbar .site-navigation .site-menu > li > a {
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 20px 0px;
+        color: #fff !important;
+        display: inline-block;
+        text-decoration: none !important; }
+        .site-navbar .site-navigation .site-menu > li > a:hover {
+          filter: brightness(85%); }
